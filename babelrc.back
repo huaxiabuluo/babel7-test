@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "@babel/es2015",
+    "@babel/react",
+    ["@babel/stage-0", { "decoratorsLegacy": true, "loose": true }]
+  ],
+  "plugins": [
+    "./name-function",
+    ["./simple-import", { libName: 'dianping' }],
+    ["@babel/proposal-decorators", { "legacy": true }],
+    ["@babel/proposal-class-properties", { "loose": true }],
+    "@babel/transform-classes",
+    "@babel/proposal-optional-chaining"
+  ]
+}
